@@ -88,7 +88,7 @@ for (let i = 0; i < raspunsuri.length; i++) {
         if (index !== 6) {
           question();
         }
-      }, 10);
+      }, 1500);
       if (corect === 6) {
         intrebare.style.visibility = "hidden";
         for (let i = 0; i < raspunsuri.length; i++) {
@@ -127,5 +127,3 @@ for (let i = 0; i < raspunsuri.length; i++) {
   });
 }
 
-//Cand incepem jocul nu vedem greselile, dupa ce apasam pe butonul de start ele o sa apara.
-//Daca ajungem cu greselile la 0 atunci o sa ne apara portofelul gol si o sa se ascunda text-ul cu greseli.
